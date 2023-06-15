@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to top, #000000, #000000);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 5px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #ffffff !important;
+    float: right;
+    text-align: left;
+    text-transform: uppercase;
+    transition-duration: 0.3s; /* Duração da transição */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* BANNER SECTION */
+#banner {
+    background: linear-gradient(to bottom, #8909ad , #000000 ), url('images/Designse.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/* SERVICES SECTION */
+
+#services {
+    background: linear-gradient(to top, #8909ad 20%, #000000 80%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    padding: 80px 0;
+}
+
+.title {
+    color: #ffffff;
+}
+
+#about-us {
+    background: #ffffff;
+    color: #ffffff;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.services {
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    font-weight: 600;
+    
+}
+
+.title::before {
+    content: '';
+    background: #fff424;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #fff424;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #fff424, #fff424);
+}
+
+/* ABOUT US SECTION */
+
+#about-us {
+    background: linear-gradient(to bottom, #8909ad 20%, #000000 80%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#about-us img {
+    width: 100%
+    
+}
+
+.about-title {
+    font-size: 30px;
+    margin-top: 8%;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+    color: #f8f9fa;
+}
+
+#about-us ul {
+    margin-left: 20px;
+    color: #f8f9fa;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+    /*margin: 0px 0;*/
+    background: linear-gradient(to top, #000000 20%, #000000 80%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.testimonials {
+    border-left: 4px solid #0083B0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* SOCIAL MEDIA SECTION */
+
+#social-media {
+    
+    background: #000000;
+    padding: 5=1px 0;
+}
+
+.container1 {
+    border: 0px solid black; /* Define a borda com 1px de espessura e cor preta */
+  padding: 20px; /* Adiciona um espaçamento interno de 10px */
+  background-color: #fff424;
+  border-radius: 10px;
+  margin: 20%;
+}
+
+#social-media p {
+    
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.social-icons img {
+    width: 35px;
+    margin: 0 10px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* FOOTER SECTION */
+
+#footer {
+    background-image: linear-gradient(to top, #8909ad, #020202);
+    color: #ffffff;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0; 
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+hr {
+    background-color: white;
+
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#meuBotao {
+    background-color: #fff424;
+    color: rgb(0, 0, 0);
+  }
+  
+  #meuBotao:hover {
+    background-color: #aaa315;
+  }
+  
+
+  .meuBotao {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remover borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibição em bloco */
+    font-size: 20px; /* Tamanho da fonte */
+    border-radius: 25px; /* Arredondamento das bordas */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition-duration: 0.3s; /* Duração da transição */
+  }
+  
+  .meuBotao:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+  }
+  
+#meuBotao1 {
+    margin-left: auto;
+    background-color: #fff424;
+    color: rgb(0, 0, 0);
+}
+
+#meuBotao1:hover {
+    background-color: #aaa315;
+  }
+
+  .meuBotao1 {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remover borda */
+    color: white; /* Cor do texto */
+    padding: 10px 25px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibição em bloco */
+    font-size: 15px; /* Tamanho da fonte */
+    border-radius: 25px; /* Arredondamento das bordas */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition-duration: 0.3s; /* Duração da transição */
+    margin-top: 10px;
+  }
+  
+  .col-md-4 footer-box{
+    padding: 10px 25px; /* Espaçamento interno */
+  }
+
+
+  
