@@ -337,5 +337,15 @@ hr {
     padding: 10px 25px; /* Espaçamento interno */
   }
 
-
+a {
+    text-decoration: none;
+    color: #000000;
+  }
   
+  button {
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
